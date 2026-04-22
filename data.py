@@ -41,6 +41,7 @@ lines2, labels2 = ax2.get_legend_handles_labels()
 ax1.legend(lines + lines2, labels + labels2, loc='upper right')
 
 plt.tight_layout()
+fig.savefig('results/final_analysis_integrated.png', dpi=300)
 plt.show()
 
 # 3. 가설 검증 결과 출력 (경기가 어려우면 술/담배 소비가 늘어나는가?)
